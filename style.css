@@ -1,0 +1,44 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+.header {
+    margin-top: 10px;
+    margin-left: 75px;
+   
+}
+.header h1 {
+    font-size: 32px;;
+}
+hr {
+    margin-left: 0px;
+    color: #000;
+    display: flex;
+    width: 100px;
+}
+body {
+    background-color: #dbdbdb;
+}
+.boxDisplay {
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #444;
+    border: 1px solid #555;
+}
+.clicked {
+    background-color: #999;
+    border: 1px solid #aaa;
+}
